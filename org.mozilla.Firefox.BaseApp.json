@@ -4,7 +4,35 @@
     "runtime-version": "19.08",
     "sdk": "org.freedesktop.Sdk",
     "separate-locales": false,
+    "cleanup": [
+        "/include",
+        "/lib/pkgconfig",
+        "/share/pkgconfig",
+        "/share/aclocal",
+        "/share/gtk-doc",
+        "/man",
+        "/share/man",
+        "*.la", "*.a"
+    ],
     "modules": [
-        "shared-modules/dbus-glib/dbus-glib-0.110.json"
+        "shared-modules/gtk2/gtk2.json",
+        "shared-modules/dbus-glib/dbus-glib-0.110.json",
+        {
+            "name": "libnotify",
+            "buildsystem": "meson",
+            "config-opts": [
+                "-Dtests=false",
+                "-Dintrospection=disabled",
+                "-Dgtk_doc=false",
+                "-Ddocbook_docs=disabled"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/libnotify/0.7/libnotify-0.7.8.tar.xz",
+                    "sha256": "69209e0b663776a00c7b6c0e560302a8dbf66b2551d55616304f240bba66e18c"
+                }
+            ]
+        }
     ]
 }
