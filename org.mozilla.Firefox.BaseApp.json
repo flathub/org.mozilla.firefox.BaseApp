@@ -32,6 +32,28 @@
                     "sha256": "69209e0b663776a00c7b6c0e560302a8dbf66b2551d55616304f240bba66e18c"
                 }
             ]
+        },
+        {
+            "name": "pcsc-lite",
+            "config-opts": [
+                "--disable-libudev",
+                "--disable-libsystemd",
+                "--without-systemdsystemunitdir",
+                "--disable-serial",
+                "--disable-usb",
+                "--disable-documentation"
+            ],
+            "post-install": [
+                "rm /app/sbin/pcscd",
+                "rmdir /app/sbin || true"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/LudovicRousseau/PCSC/archive/pcsc-1.8.26.tar.gz",
+                    "sha256": "87da93642ba45fdbec07462c9ffabecbdda02407719fa21402f20fa35910425a"
+                }
+            ]
         }
     ]
 }
