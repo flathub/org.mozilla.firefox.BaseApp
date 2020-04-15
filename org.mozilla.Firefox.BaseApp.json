@@ -13,6 +13,9 @@
         "/share/man",
         "*.la", "*.a"
     ],
+    "cleanup-commands": [
+        "mkdir -p ${FLATPAK_DEST}/lib/ffmpeg"
+    ],
     "modules": [
         "shared-modules/gtk2/gtk2.json",
         "shared-modules/dbus-glib/dbus-glib-0.110.json",
