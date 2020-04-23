@@ -3,6 +3,7 @@
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "19.08",
     "sdk": "org.freedesktop.Sdk",
+    "separate-locales": false,
     "cleanup": [
         "/include",
         "/lib/pkgconfig",
