@@ -68,8 +68,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/LudovicRousseau/PCSC/archive/pcsc-1.9.0.tar.gz",
-                    "sha256": "9e9b332bf8d37123d0c29e0ac359140b64cfd2bdf7be341a8d39e49fda592df2"
+                    "url": "https://salsa.debian.org/rousseau/PCSC/-/archive/1.9.1/PCSC-1.9.1.tar.bz2",
+                    "sha256": "07bc4cddb60f5e244e957dcf1c6bf8b2d6bafe71de44c7123842dd979137d08b"
                 }
             ]
         }
