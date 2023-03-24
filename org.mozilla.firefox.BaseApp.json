@@ -14,6 +14,9 @@
         "/share/man",
         "*.la", "*.a"
     ],
+    "finish-args" : [
+        "--filesystem=/run/.heim_org.h5l.kcm-socket"
+    ],
     "modules": [
         "shared-modules/dbus-glib/dbus-glib.json",
         {
