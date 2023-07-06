@@ -16,6 +16,8 @@
     ],
     "modules": [
         "shared-modules/dbus-glib/dbus-glib.json",
+        "shared-modules/libcanberra/libcanberra.json",
+        "shared-modules/intltool/intltool-0.51.json",
         {
             "name": "kerberos",
             "subdir": "src",
@@ -54,6 +56,16 @@
                     "type": "archive",
                     "url": "https://download.gnome.org/sources/libnotify/0.8/libnotify-0.8.2.tar.xz",
                     "sha256": "c5f4ed3d1f86e5b118c76415aacb861873ed3e6f0c6b3181b828cf584fc5c616"
+                }
+            ]
+        },
+        {
+            "name": "sound-theme-freedesktop",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://salsa.debian.org/gnome-team/sound-theme-freedesktop.git",
+                    "tag": "upstream/0.8"
                 }
             ]
         },
