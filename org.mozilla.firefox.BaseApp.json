@@ -21,8 +21,14 @@
         {
             "name": "kerberos",
             "subdir": "src",
+            "config-opts": [
+                    "--localstatedir=/var/lib",
+                    "--sbindir=${FLATPAK_DEST}/bin",
+                    "--disable-rpath",
+                    "--disable-static"
+            ],
             "post-install": [
-                "install -Dm644 ../krb5.conf /app/etc/krb5.conf"
+                "install -Dm644 ../krb5.conf -t ${FLATPAK_DEST}/etc/"
             ],
             "sources": [
                 {
