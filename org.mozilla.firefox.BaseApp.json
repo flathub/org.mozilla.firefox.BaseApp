@@ -10,6 +10,8 @@
         "/share/pkgconfig",
         "/share/aclocal",
         "/share/gtk-doc",
+        "/share/doc",
+        "/share/info",
         "/man",
         "/share/man",
         "*.la", "*.a"
@@ -131,7 +133,8 @@
             "cleanup": [
                 "/bin",
                 "/etc",
-                "/lib/speech-dispatcher"
+                "/libexec",
+                "/share"
             ]
         }
     ]
