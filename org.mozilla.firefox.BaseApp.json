@@ -134,7 +134,8 @@
                 "/bin",
                 "/etc",
                 "/libexec",
-                "/share"
+                "/share/sounds/speech-dispatcher",
+                "/share/speech-dispatcher"
             ]
         }
     ]
