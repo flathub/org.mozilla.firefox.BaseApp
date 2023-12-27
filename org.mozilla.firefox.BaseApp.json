@@ -108,7 +108,7 @@
                 },
                 {
                     "type": "script",
-                    "commands": "autoreconf -fiv",
+                    "commands": ["autoreconf -fiv"],
                     "dest-filename": "autogen.sh"
                 }
             ]
