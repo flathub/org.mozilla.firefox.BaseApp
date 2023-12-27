@@ -121,7 +121,12 @@
                     "--disable-python",
                     "--with-systemdsystemunitdir=''",
                     "--disable-rpath",
-                    "--disable-static"
+                    "--disable-static",
+                    "--with-kali=no",
+                    "--with-baratinoo=no",
+                    "--with-ibmtts=no",
+                    "--with-voxin=no",
+                    "--without-oss"
             ],
             "sources": [
                 {
