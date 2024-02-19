@@ -85,7 +85,8 @@
                 "--without-systemdsystemunitdir",
                 "--disable-serial",
                 "--disable-usb",
-                "--disable-documentation"
+                "--disable-documentation",
+                "--disable-polkit"
             ],
             "post-install": [
                 "rm /app/sbin/pcscd",
