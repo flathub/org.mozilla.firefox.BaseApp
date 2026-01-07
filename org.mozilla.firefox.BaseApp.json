@@ -60,14 +60,13 @@
         },
         {
             "name": "pcsc-lite",
+            "buildsystem": "meson",
             "config-opts": [
-                "--disable-libudev",
-                "--disable-libsystemd",
-                "--without-systemdsystemunitdir",
-                "--disable-serial",
-                "--disable-usb",
-                "--disable-documentation",
-                "--disable-polkit"
+                "-Dlibudev=false",
+                "-Dlibsystemd=false",
+                "-Dserial=false",
+                "-Dusb=false",
+                "-Dpolkit=false"
             ],
             "post-install": [
                 "rm /app/sbin/pcscd",
@@ -76,8 +75,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://salsa.debian.org/rousseau/PCSC/-/archive/2.0.3/PCSC-2.0.3.tar.bz2",
-                    "sha256": "35ce63ff9f8fa34b67fbc791be08b3daba621263545e3d0fe1e480301f10a41d"
+                    "url": "https://salsa.debian.org/rousseau/PCSC/-/archive/2.4.1/PCSC-2.4.1.tar.bz2",
+                    "sha256": "b10104a92b9c066a2d02cc2d8b539cb3a9f720d217799233dbe1dc1234b0aeaa"
                 }
             ]
         },
