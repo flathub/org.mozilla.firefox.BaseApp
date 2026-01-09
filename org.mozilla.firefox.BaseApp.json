@@ -81,7 +81,8 @@
             ],
             "cleanup": [
                 "/sysusers.d",
-                "/lib/systemd"
+                "/lib/systemd",
+                "/etc/default/pcscd"
             ]
         },
         {
