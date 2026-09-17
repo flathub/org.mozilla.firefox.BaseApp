@@ -38,6 +38,10 @@
                     "sha256": "3243ffbc8ea4d4ac22ddc7dd2a1dc54c57874c40648b60ff97009763554eaf13"
                 },
                 {
+                    "type": "patch",
+                    "path": "krb5-fix.patch"
+                },
+                {
                     "type": "file",
                     "path": "krb5.conf"
                 }
