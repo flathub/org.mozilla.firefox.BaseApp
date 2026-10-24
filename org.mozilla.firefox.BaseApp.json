@@ -79,8 +79,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://salsa.debian.org/rousseau/PCSC/-/archive/2.4.1/PCSC-2.4.1.tar.bz2",
-                    "sha256": "b10104a92b9c066a2d02cc2d8b539cb3a9f720d217799233dbe1dc1234b0aeaa"
+                    "url": "https://salsa.debian.org/rousseau/PCSC/-/archive/2.5.3/PCSC-2.5.3.tar.bz2",
+                    "sha256": "d5e7a3a7d4243378c612233ef6681edaccab4ae509151f02d2040643f3b7e740"
                 }
             ],
             "cleanup": [
@@ -95,8 +95,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/williamh/dotconf/archive/refs/tags/v1.3.tar.gz",
-                    "sha256": "7f1ecf40de1ad002a065a321582ed34f8c14242309c3547ad59710ae3c805653"
+                    "url": "https://github.com/williamh/dotconf/archive/refs/tags/v1.4.1.tar.gz",
+                    "sha256": "5922c46cacf99b2ecc4853d28a2bda4a489292e73276e604bd9cba29dfca892d"
                 },
                 {
                     "type": "script",
@@ -121,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/brailcom/speechd/releases/download/0.12.0/speech-dispatcher-0.12.0.tar.gz",
-                    "sha256": "e1dd0bfa24b8338545e165451330adf51c4c0dca862b1b67e76fba5142dbbb74"
+                    "url": "https://github.com/brailcom/speechd/releases/download/0.12.1/speech-dispatcher-0.12.1.tar.gz",
+                    "sha256": "b14a5238d287d2dcce4dd42bbd66ca65fa228e7e683708267f7b34036f7ba4b4"
                 }
             ],
             "cleanup": [
